@@ -1,0 +1,31 @@
+Q2) 
+  a) Breadth-First Search (BFS) :- 
+      We can treat each grid box as a node and connectivity (up,dow,right,left) as edges [no diagonal connectivity].Let (x,y) represent position of a general grid box.
+      Let order be the list of positions that robot has visited and unexplored_pos be the list of positions not yet explored.
+      Step 1:- Robot adds current position (initial positin) to order and removes pos from unexplored_pos. { Order : [(0,0)] }
+      Step 2:- Robot explores neigbours which are in the list of unexplored_pos and adds them to order and removes neighbours from unexplored_pos. { Order : [(0,0) , (1,0) , (0,1)}
+      If the current position has no neignbours except the current position , retrace its path and go to another neigbour which has a neighbour.
+      Step 3:- Robot treats current position (previously a neigbour to initial pos) as initial position and repeats steps 2.
+      Step 4:- As soon as robot reaches destination , robot stops
+
+      CODE :- [ Python ] 
+      https://www.geeksforgeeks.org/ide/online-python3-compiler
+
+  b) Time Complexity of BFS :- (open alongside code)
+      Every append and pop has a time complexity of O(1) 
+      Every node is visited once so time complexity is O(V) where V = (n + 1)^2
+      For a node each valid edge is examined ince so time compleity is O(E) where E = 4n(n + 1)
+      So total time complexity is O(V + E) which is O(n^2)
+
+Q3)
+   a)For BFS to handle weighted graphs the fundamental change that is needed is to use a priority queue[priotirize nodes with lower weight] instead of a queue with         each node with same weight. 
+
+  b)The path planning algorithm which naturally handles weighted graph is the Dijkstra's Algorithm.
+    The difference between BFS and Dijkstra's Algorithm is the queue . Dijkstra's Algorithm queues with prioirty given to lower weight nodes [move towards              neighbour with lower weight path] while BFS treats weights of all paths of nodes to be equal [1].So BFS doesnt queue with priority.As priority queue makes sure     that in a weighted graph the most promisig path is visited first , it is more optimal in finding path with least weight 
+
+
+Q4)
+  BFS uses queue with FIFO [First In First Out] while DFS uses stack with LIFO [ Last In First Out] / recursion
+  BFS explores all neighbours then neighbours of each neighbours and so on while DFS explores a path until a dead-end is hit and backtracks.
+  BFS finds shortest path in non-weighted graphs while DFS does not.
+  BFS is slower than DFS 
