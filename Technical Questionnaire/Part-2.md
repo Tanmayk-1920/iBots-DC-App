@@ -8,8 +8,7 @@ Q2)
       Step 3:- Robot treats current position (previously a neigbour to initial pos) as initial position and repeats steps 2.
       Step 4:- As soon as robot reaches destination , robot stops
 
-      CODE :- [ Python ] 
-      https://www.geeksforgeeks.org/ide/online-python3-compiler
+      [Code] (https://www.geeksforgeeks.org/ide/online-python3-compiler)
 
   b) Time Complexity of BFS :- (open alongside code)
       Every append and pop has a time complexity of O(1) 
