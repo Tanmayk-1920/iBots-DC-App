@@ -1,10 +1,10 @@
 Q1)
-	a) Collect Sensor data by cameras, gyroscopes, wheel encoders etc. Use this data to find out 		    distance between robot and walls, and other landmarks.
+	a) Collect Sensor data by cameras, gyroscopes, wheel encoders etc. Use this data to find out distance between robot and walls, and other landmarks.
 	Create a map using sensor data while tracking robot movement.
 
 	b)	Step 1: Start with no map and a position (origin as robot position)
 			Step 2: Use sensors like cameras, wheel encoders etc to gather data.
 			Step 3: Mark important landmarks (doors, walls, objects)
 			Step 4: Move robot 
-			Step 5: While moving make sure to continue step 2 , 3 and compare data (where you thought 				you were and where you currently are relative to landmarks) to gain certainty of 					         position. 
+			Step 5: While moving make sure to continue step 2 , 3 and compare data (where you thought you were and where you currently are relative to landmarks) to gain certainty of position. 
 			Step 6: Update the map with this data.
