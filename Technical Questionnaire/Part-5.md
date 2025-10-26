@@ -7,16 +7,15 @@
 
 
 Q10)a) MOSFET :-
-            A MOSFET (Metal–Oxide–Semiconductor Field-Effect Transistor) is a voltage-controlled             switch. It has three active terminals—Gate (G), Drain (D), and Source (S) where gate             voltage controls current flow between drain and source.
+            A MOSFET (Metal–Oxide–Semiconductor Field-Effect Transistor) is a voltage-controlled switch. It has three active terminals—Gate (G), Drain (D), and Source (S) where gate voltage controls current flow between drain and source.
 
   NMOS (n - channel MOSFET) :-
-      Conducts when gate-to-source Voltage exceeds Threshold Voltage. At this Voltage a                conductive channel forms between drain and source , allowing electrons to move from drain        to source.
+      Conducts when gate-to-source Voltage exceeds Threshold Voltage. At this Voltage a  conductive channel forms between drain and source , allowing electrons to move from drain to source.
       If gate-to-source Voltage is below than Threshold Voltage , no channel exists and transiistor behaves like an open circuit.
 
   PMOS (p - channel MOSFET) :-
-        Conducts when the gate voltage is lower than threshold. Aloows hole movemnt from source          to drain.
+        Conducts when the gate voltage is lower than threshold. Aloows hole movemnt from source to drain.
         If Gate potential is higher than threshold , the channel disappears annd current stops.
 
 Both NMOS and PMOS act as voltage controlled switches where NMOS connects output to ground when gate voltage is high and PMOS connects output to supply when gate voltage is low.
-
 
