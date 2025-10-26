@@ -19,3 +19,4 @@ Q10)a) MOSFET :-
 
 Both NMOS and PMOS act as voltage controlled switches where NMOS connects output to ground when gate voltage is high and PMOS connects output to supply when gate voltage is low.
 
+[H-Bridge](https://drive.google.com/file/d/1R6rb5eAj_5iIIsKnstNkvPcaD2GUNWfx/view?usp=drive_link)
