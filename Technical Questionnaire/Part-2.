@@ -8,7 +8,7 @@ Q2)
       Step 3:- Robot treats current position (previously a neigbour to initial pos) as initial position and repeats steps 2.
       Step 4:- As soon as robot reaches destination , robot stops
 
-      [Code] (https://www.geeksforgeeks.org/ide/online-python3-compiler)
+      [Code](https://www.geeksforgeeks.org/ide/online-python3-compiler)
 
   b) Time Complexity of BFS :- (open alongside code)
       Every append and pop has a time complexity of O(1) 
@@ -28,3 +28,9 @@ Q4)
   BFS explores all neighbours then neighbours of each neighbours and so on while DFS explores a path until a dead-end is hit and backtracks.
   BFS finds shortest path in non-weighted graphs while DFS does not.
   BFS is slower than DFS 
+
+
+References : https://www.youtube.com/watch?v=LFKZLXVO-Dg
+             https://www.youtube.com/watch?v=xlVX7dXLS64 
+             https://www.youtube.com/watch?v=PMMc4VsIacU
+             
