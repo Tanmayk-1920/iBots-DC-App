@@ -13,6 +13,7 @@ Some Terms :-
   7) Exploration vs Exploitation :- Balancing trying new actions to learn and using known actions
 
 Q-Learning:- Its a model-free reinforcement learning algorihm that enables an agent to learn the best policy for an environment that relies on the Bellman equation that updates values for actions taken.
+
     Equation:-
                 Q(s,a)←Q(s,a)+α[r+γ*maxQ(s′,a′)−Q(s,a)]
     Q(s,a) = Current estimate of value in state s by taking action a
